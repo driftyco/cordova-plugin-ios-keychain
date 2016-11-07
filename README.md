@@ -67,9 +67,10 @@ Keychain.setJson(successCallback, failureCallback, 'key', 'value', useTouchID);
  @param failureCallback returns the error string as the argument to the callback, for a failure
  @param key the key to set
  @param value the value to set
- @param useTouchID whether to store the value with security such that TouchID will be needed to grab it
+ @param TouchIDMessage the message to show underneath the TouchID prompt (if any)
  */
-Keychain.getJson(successCallback, failureCallback, 'key', useTouchID);
+Keychain.getJson(successCallback, failureCallback, 'key', 'TouchID Message');
+ */
 ```
 
 ### License 
