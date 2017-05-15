@@ -1,0 +1,22 @@
+{
+  "name": "cordova-plugin-ios-keychain",
+  "version": "3.0.1",
+  "description": "This plugin allows your app access to the iOS KeyChain from Cordova. See: https://developer.apple.com/library/mac/documentation/security/conceptual/keychainServConcepts/iPhoneTasks/iPhoneTasks.html",
+  "main": "www/keychain.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HealthEquityInc/cordova-plugin-ios-keychain.git"
+  },
+  "author": "HealthEquity",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/HealthEquityInc/cordova-plugin-ios-keychain/issues"
+  },
+  "homepage": "https://github.com/HealthEquityInc/cordova-plugin-ios-keychain#readme"
+}
